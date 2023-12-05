@@ -1,0 +1,136 @@
+/* Add a container around the login form for better centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height based on your design */
+}
+
+.login {
+    /* background-color: var(--bg); */
+    /* box-shadow: 0px 2px 4px #ced3d9cc; */
+    width: 100%;
+    max-width: 600px; /* Set a max-width for larger screens */
+    margin: 0 auto; /* Center the login box */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.text_wrapper_2 {
+    color: var(--primary-col-3);
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+    text-align: center; /* Center the text */
+}
+
+.p,
+.textWrapper3 {
+    color: var(--x-4);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center; /* Center the text */
+}
+
+.overlap_group {
+    background-color: #f4f3f3;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 5px #d6d6d6;
+    margin-top: 20px; /* Add some top margin for spacing */
+    width: 100%; /* Occupy the full width */
+    max-width: 600px;
+    padding: 40px;
+}
+
+.input_field_instance {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Increase the gap between input fields */
+}
+
+.login {
+    background-color: var(--bg);
+
+    width: 100%;
+    max-width: 600px; /* Set a max-width for larger screens */
+    margin: 0 auto; /* Center the login box */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.input_field_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Increase the gap between input fields */
+}
+
+.group {
+    height: 88px;
+    position: absolute;
+    top: 727px;
+    width: 100%; /* Occupy the full width */
+    max-width: 600px;
+    margin: 0 auto; /* Center the group */
+}
+
+@media screen and (max-width: 992px) {
+    .overlap_group {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+}
+
+/* input field styling */
+.input_field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.frame {
+    display: flex;
+    gap: 4px;
+
+    padding: 4px;
+}
+
+.div_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    border: 5px;
+    border: none;
+}
+
+.div {
+    color: #504747;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.input_field_name {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+.button_signup {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.error {
+    color: red;
+}
